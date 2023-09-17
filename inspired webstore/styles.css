@@ -1,0 +1,156 @@
+*{
+    font-family: futura-pt,-apple-system,blinkmacsystemfont,Segoe UI,roboto,Helvetica Neue,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  }
+  header, nav{
+    margin: 0;
+    padding: 0.5em 0;
+   
+  }
+  header{
+    height: 100px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1em solid black;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
+  }
+  
+  
+  body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 0;
+  }
+  
+  #header-img{
+    width: 45%;
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing around the image */
+    margin: 0 auto;
+  }
+  
+  .nav-link{
+    display: inline-block;
+    margin-right: 1.5em;
+  }
+  #nav-bar {
+    list-style-type : none;
+    
+  
+  }
+  .nav-link a::after {
+    display: inline-block;
+    color: rgb(102, 113, 126);
+    content: '|';
+    font-size: 100%;
+    font-weight: bold;
+    padding: 0 5px;
+  }
+  
+  .nav-link a{
+    color: #000;
+    text-decoration: none;
+   
+    padding: 5px 5px;
+  }
+  a:hover{
+    color: #66717E;
+    text-shadow: #66717E 1px 0 1px;
+  }
+  h2{
+    color: black;
+    font-family :Segoe UI ;
+    
+  }
+  form {
+   
+    width: 50%;
+    margin: 0 auto;
+     display: table;
+    
+  }
+  
+  div {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    /* display: table-cell; */
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  
+    
+  
+    
+  }
+  section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  input[type="submit"] {
+      background-color:#000;
+      color: #fff;
+      padding: 10px 20px;
+      margin: 10px;
+      border: 1px solid #000;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(102, 113, 126, 0.2);
+  }
+  
+  input[type="submit"]:hover {
+      background-color: #66717E;
+  }
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 250vh; 
+  }
+  #Spring-2023{
+    
+    align-items: center;
+    justify-content: center;
+  }
+  #p1, #p2 {
+    display: inline-block; /* Display elements horizontally */
+    vertical-align: top; /* Align them to the top */
+    width: 30%; /* Adjust the width as needed */
+  }
+  
+  #Sale>img{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap : wrap;
+    
+    
+    gap: 16px;
+    width: 200px;
+    height: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  @media screen and (min-width: 900px) {
+    li {
+      padding: 1rem 3rem;
+    }
+  }
+  
