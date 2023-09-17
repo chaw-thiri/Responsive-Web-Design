@@ -1,0 +1,73 @@
+** end of html **
+
+** start of css **
+
+h1{
+  text-align: center;
+  font-family: Impact;
+  margin: auto;
+}
+p{
+  font-style: italic;
+  font-size: 12px;
+  margin: 1em auto;
+  
+}
+body{
+  background-color: black;
+  color: rgb(215,225,235);
+  font-family: Tahoma;
+  font-size: 16px;
+  width: 100%;
+  height: 100vh;
+  margin: 10;
+}
+form {
+  width: 90vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input, textarea {
+  width: 100%;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+  background-color: #0a0a23;
+  border-radius: 10px;
+  
+
+}
+textarea:last-of-type{
+  width: 100%;
+  text-align : center;
+  margin : auto;
+}
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+a{
+  color: pink;
+}
+input[type="submit"] {
+  display: block;
+  width: 10%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+** end of undefined **

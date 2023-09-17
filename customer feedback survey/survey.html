@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> User Feedback Survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+    
+  </head>
+    <body>
+      <h1 id="title">User Feedback Survey</h1>
+      <p id="description"> Thank you for using our products.
+     Please fill out this form with relevant information</p>
+
+      <section>
+        <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+
+        <fieldset>
+            <legend> Personal Information </legend>
+            <label for="name-label" id="name-label">Name:
+              <input id="name" type="text" name="name" required placeholder="Tim"/> </label>
+
+            <label for="email-label" id="email-label">Email:
+              <input id="email" type="email" name="email" required placeholder="timburton@gmail.com"/> </label>
+
+            <label for="age-label" id="age-label">Age:(optional:)
+              <input id="age" type="number" min="13" max="120" name="age" placeholder="20"/>
+            </label>
+            <label for="number-label" id="number-label">Contact number:(optional:)
+              <input id="number" type="number" name="number" min=0 max=999999999 placeholder="+821111111"/>
+            </label>
+        </fieldset>
+        <fieldset>
+         
+              <legend> What option best describe your current job: </legend>
+          
+                <label for="high-school-student">  <input id="high-school-student" type="radio" name="job" class="inline" value="high-school-student" />High-school student:</label>
+                <label for="undergraduate"> <input id="undergraduate" type="radio" name="job" class="inline" value="undergraduate"/>Undergraduate</label>
+                <label for="graduate"> <input id="graduate" type="radio" name="job" class="inline" value="graduate"/>Graduate</label>
+                <label for="working"> <input id="working" type="radio" name="job" class="inline" value="working"/>Working</label>
+        
+            
+
+     
+          </fieldset>
+          <fieldset>
+              <legend> Plese rank our service </legend>
+              <label for="dropdown">
+          <select id="dropdown" name="ranking">
+            <option value="">(select one)</option>
+            <option value="1">very bad</option>
+            <option value="2">bad</option>
+            <option value="3">normal</option>
+            <option value="4">good</option>
+            <option value="5">very good</option>
+          </select>
+        </label>
+
+
+          </fieldset>
+          <div>
+               <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+               <label for="subscription">
+          <input value="subscription" id="subscription" type="checkbox"  name="subscription" class="inline" /> Check to subscribe our letters(promotions and special events)
+        </label>
+
+          </div>
+
+        
+       
+        <label for="comment">Any comment:
+          <textarea id="comment" name="comment" rows="3" cols="30" placeholder="I want ..."></textarea>
+        </label>
+      <input id="submit" type="submit" value="Submit" />
+      </form>
+       </section>
+      </body>
+</html>
+
+
